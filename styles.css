@@ -1,0 +1,187 @@
+/* *{
+    box-sizing: border-box;
+} */
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #E4E9BE;
+}
+.bigdiv{
+   background-color: #e9ad95;
+   
+   height: 5rem;
+}
+.small1{
+    height: 3rem;
+    background-color: #e7af4f;
+    width: 18rem;
+    margin-left: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+}
+.small2{
+    height: 3rem;
+    width: 10rem;
+    background-color:  #d8ae65;
+    margin-left: 4rem;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.bigdiv{
+    display: flex;
+    align-items: center;
+}
+.color1{
+    background-color: #EB5353;
+    height: 2rem;
+    width: 3rem;
+    cursor: pointer;
+}
+.color2{
+    background-color: #F9D923;
+    height: 2rem;
+    width: 3rem;
+    cursor: pointer;
+}
+.color3{
+    background-color: #36AE7C;
+    height: 2rem;
+    width: 3rem;
+    cursor: pointer;
+}
+.color4{
+    background-color: #187498;
+    height: 2rem;
+    width: 3rem;
+    cursor: pointer;
+}
+.colorx.color1{
+    height: 2rem;
+    width: 4rem;
+    cursor: pointer;
+}
+.colorx.color2{
+    height: 2rem;
+    width: 4rem;
+    cursor: pointer;
+}
+.colorx.color3{
+    height: 2rem;
+    width: 4rem;
+    cursor: pointer;
+}
+.colorx.color4{
+    height: 2rem;
+    width: 4rem;
+    cursor: pointer;
+}
+
+.small0{
+    margin-left: 3rem;
+    font-size: 1.5rem;
+    font-family: cursive;
+    
+    height: 4rem;
+    display: flex;
+    align-items: center;
+
+}
+.middle{
+    /* background-color: #b3c6ce; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    margin-left: 25rem;
+    position: absolute;
+    margin-top: 5rem;
+    
+}
+.midleft{
+    background-color: #cea291;
+}
+
+.midleft{
+    width: 100%;
+    height: 100%;
+}
+.textarea{
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    font-size: 2.5rem;
+    
+}
+.allcolor{
+    background-color: #d8cc8b;
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.ticket{
+    background-color: white;
+    width: 12rem;
+    height: 10rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    
+}
+.tikcolor{
+    width: 100%;
+    /* background-color: #CC704B; */
+    height: 10%;
+    
+}
+.tikid{
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 100%;
+    height: 10%;
+    background-color: #f7cdcd;
+}
+.tiktask{
+    width: 100%;
+    height: 70%;
+    background-color: white;
+    font-size: 1.25rem;
+    overflow: auto;
+    outline: none;
+    word-break: break-all;
+    
+}
+
+.ticketcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+.selected{
+    border: 2px solid black;
+}
+.lock{
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    
+}
+.fa.fa-lock{
+    margin-right: 3px;
+}
+.fa{
+    cursor: pointer;
+}
